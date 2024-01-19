@@ -1,7 +1,7 @@
 # ROS 2 Package Creation Template
 
 
-This is a template for creating ROS 2 workspace **ros_ws** along with a custom package.
+This is a template for creating ROS 2 workspace **ros2_ws** along with a custom package.
 
 **<em>Note: </em>** If you do not have ROS 2 installed you can use my [Docker Container](#using-docker).
 
