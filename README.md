@@ -30,10 +30,10 @@ Then build the images:
 
 ```bash
 cd ros2_galactic/docker
-docker build -f Dockerfile -t galactic_tb_env .
+docker build -f Dockerfile -t galactic_tb_env:my_package .
 cd ../..
 cd ros2-development/docker
-docker build -f Dockerfile -t my_bot_ros2 ../
+docker build -f Dockerfile -t my_bot_ros2:my_package ../
 ```
 <strong><em>Note</em></strong>: <strong>../</strong> represents the PATH context which sets the target context one level above to the <strong>my_bot_ros2</strong> directory in order to successfully execute the COPY command from the Dockerfile which will copy the <strong>ros2_ws</strong> inside the container.
 
