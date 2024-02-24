@@ -43,7 +43,7 @@ docker build -f Dockerfile -t my_bot_ros2 ../
 
 * Here I have called my custom package **my_package**, so you just need to replace this name with your own package name in a few files. To do this you can easily use VS Code search bar and type in **my_package** and make your changes accordingly.
 
-* The docker-compose.yml file: Replace PROJECT_PATH with your local path to the project, by setting the  PROJECT_PATH environment variable on your host.**
+* The docker-compose.yml file: Replace **$PROJECT_PATH** environment variable with your local path to the project, by setting the  PROJECT_PATH environment variable on your host.**
 
 ## Launch Container
 
