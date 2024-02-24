@@ -9,7 +9,7 @@ This is a template for creating ROS 2 workspace **ros2_ws** along with a custom 
 
 ```bash
 git clone https://github.com/jkoubs/ros2-development.git
-cd ros2_ws
+cd ros2-development/ros2_ws/
 ```
 You now have a clean ROS2 workspace with a custom package to work with.
 
