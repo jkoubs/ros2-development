@@ -13,7 +13,7 @@ def generate_launch_description():
 
     ####### DATA INPUT ##########
     urdf_file = 'my_bot_base.xacro'
-    package_description = "robot_description"
+    package_description = "my_package"
 
     ####### DATA INPUT END ##########
     print("Fetching URDF ==>")

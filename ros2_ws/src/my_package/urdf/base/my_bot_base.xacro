@@ -87,7 +87,7 @@
         <visual>
             <origin xyz="0 0 -${chassis_height/2}" rpy="-${M_PI/2} 0 0" />
             <geometry>
-                <mesh filename="package://robot_description/meshes/chassis.dae"/>
+                <mesh filename="package://my_package/meshes/chassis.dae"/>
             </geometry>
         </visual>
     </link>
@@ -119,7 +119,7 @@
         <visual>
             <origin rpy="${M_PI} 0 0" xyz="0 0 0" />
             <geometry>
-                <mesh filename="package://robot_description/meshes/wheels.dae"/>
+                <mesh filename="package://my_package/meshes/wheels.dae"/>
             </geometry>
         </visual>
     </link>
@@ -151,7 +151,7 @@
         <visual>
             <origin rpy="${M_PI} 0 0" xyz="0 0 0" />
             <geometry>
-                <mesh filename="package://robot_description/meshes/wheels.dae"/>
+                <mesh filename="package://my_package/meshes/wheels.dae"/>
             </geometry>
         </visual>
     </link>
@@ -183,7 +183,7 @@
         <visual>
             <origin rpy="${M_PI} 0 0" xyz="0 0 0" />
             <geometry>
-                <mesh filename="package://robot_description/meshes/wheels.dae"/>
+                <mesh filename="package://my_package/meshes/wheels.dae"/>
             </geometry>
         </visual>
     </link>
@@ -215,7 +215,7 @@
         <visual>
             <origin rpy="${M_PI} 0 0" xyz="0 0 0" />
             <geometry>
-                <mesh filename="package://robot_description/meshes/wheels.dae"/>
+                <mesh filename="package://my_package/meshes/wheels.dae"/>
             </geometry>
         </visual>
     </link>
@@ -237,6 +237,6 @@
         <child link="front_laser" />
     </joint> -->
 
-    <xacro:include filename="$(find robot_description)/urdf/base/koubot_base.gazebo" />
+    <xacro:include filename="$(find my_package)/urdf/base/koubot_base.gazebo" />
 
 </robot>

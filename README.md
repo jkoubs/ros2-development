@@ -13,13 +13,6 @@ cd ros2-development/ros2_ws/
 ```
 You now have a clean ROS2 workspace with a custom package to work with.
 
-#### IMPORTANT EDIT:
-
-Here I have called my custom package **robot_description**, so you just need to replace this name with your own package name in a few files. To do this you can easily use VS Code search bar and type in **robot_description** and make your changes accordingly. Also do not modify the **/robot_description** topic in the **koubot_description.launch.py**, just edit line 16:  
-```bash
-package_description = "robot_description"
-```
-
 # Using Docker
 ## Build Docker Images
 
@@ -48,7 +41,7 @@ docker build -f Dockerfile -t my_bot_ros2 ../
 
 **Before running the container you need to edit 2 main things:**
 
-* Here I have called my custom package **robot_description**, so you just need to replace this name with your own package name in a few files. To do this you can easily use VS Code search bar and type in **robot_description** and make your changes accordingly.
+* Here I have called my custom package **my_package**, so you just need to replace this name with your own package name in a few files. To do this you can easily use VS Code search bar and type in **my_package** and make your changes accordingly.
 
 * The docker-compose.yml file: Replace PROJECT_PATH with your local path to the project, by setting the  PROJECT_PATH environment variable on your host.**
 
