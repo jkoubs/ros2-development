@@ -33,7 +33,7 @@ cd ros2_galactic/docker
 docker build -f Dockerfile -t galactic_tb_env:latest .
 cd ../..
 cd ros2-development/docker
-docker build -f Dockerfile -t my_bot_ros2:my_package ../
+docker build -f Dockerfile -t my_bot_ros2:latest ../
 ```
 <strong><em>Note</em></strong>: <strong>../</strong> represents the PATH context which sets the target context one level above to the <strong>my_bot_ros2</strong> directory in order to successfully execute the COPY command from the Dockerfile which will copy the <strong>ros2_ws</strong> inside the container.
 
@@ -45,7 +45,7 @@ docker build -f Dockerfile -t my_bot_ros2:my_package ../
 
 * The docker-compose.yml file: Replace **$PROJECT_PATH** environment variable with your local path to the project, by setting the **PROJECT_PATH** environment variable on your host. This will allow **sharing data between the host and Docker container**.
 
-* Another crucial consideration is ensuring alignment between the name of your Docker image within the **docker-compose.yml** file. In the provided instance, it is designated as: **my_bot_ros2:my_package**.
+* Another crucial consideration is ensuring alignment between the name of your Docker image within the **docker-compose.yml** file. In the provided instance, it is designated as: **my_bot_ros2:latest**.
 
 ## Launch Container
 
