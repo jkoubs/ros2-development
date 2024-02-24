@@ -3,7 +3,7 @@
 
 This is a template for creating ROS 2 workspace **ros2_ws** along with a custom package.
 
-**<em>Note: </em>** If you do not have ROS 2 installed you can use my [Docker Container](#using-docker).
+**<em>Note: </em>** If you do not have ROS 2 installed you can use my [Docker Container](#using-docker), then proceed to the [Install](#install).
 
 # Install
 
