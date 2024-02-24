@@ -30,7 +30,7 @@ Then build the images:
 
 ```bash
 cd ros2_galactic/docker
-docker build -f Dockerfile -t galactic_tb_env:my_package .
+docker build -f Dockerfile -t galactic_tb_env:latest .
 cd ../..
 cd ros2-development/docker
 docker build -f Dockerfile -t my_bot_ros2:my_package ../
